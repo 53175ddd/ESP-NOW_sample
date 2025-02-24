@@ -3,7 +3,7 @@
 
 #define LED_BUILTIN 4  // 回路に合わせて変更
 
-uint8_t target_address[] = {0x34, 0x98, 0x7A, 0x8F, 0x24, 0xA8};  // 相手の MAC アドレス
+uint8_t target_address[] = {0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX};  // 相手の MAC アドレス
 
 esp_now_peer_info_t peer_info;  // 接続先（ピア）の情報を保持するための構造体
 
